@@ -1,3 +1,5 @@
+# WIP
+
 # Freelo MCP Server
 
 An MCP (Model Context Protocol) server that provides tools to interact with the Freelo.io project management API.
