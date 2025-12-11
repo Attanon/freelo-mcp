@@ -53,11 +53,11 @@ const server = new Server(
 
 // Combine all tools
 const allTools = [
-  ...projectTools,
+  // ...projectTools,
   ...taskTools,
-  ...tasklistTools,
-  ...commentTools,
-  ...timeTrackingTools,
+  // ...tasklistTools,
+  // ...commentTools,
+  // ...timeTrackingTools,
 ];
 
 // Handle list tools request
