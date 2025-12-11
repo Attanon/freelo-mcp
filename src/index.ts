@@ -14,6 +14,7 @@ import { taskTools } from './tools/tasks.js';
 import { tasklistTools } from './tools/tasklists.js';
 import { commentTools } from './tools/comments.js';
 import { timeTrackingTools } from './tools/timetracking.js';
+import { fileTools } from './tools/files.js';
 import { z } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 
@@ -53,11 +54,12 @@ const server = new Server(
 
 // Combine all tools
 const allTools = [
-  // ...projectTools,
-  ...taskTools,
-  // ...tasklistTools,
-  // ...commentTools,
-  // ...timeTrackingTools,
+    // ...projectTools,
+    ...taskTools,
+    // ...tasklistTools,
+    // ...commentTools,
+    // ...timeTrackingTools,
+    ...fileTools,
 ];
 
 // Handle list tools request
