@@ -1,5 +1,9 @@
 # WIP
 
+**Currently only these tools are enabled:**
+- `freelo_get_task` - Get detailed task information
+- `freelo_download_file` - Download file attachments (base64 or save to temp file)
+
 # Freelo MCP Server
 
 An MCP (Model Context Protocol) server that provides tools to interact with the Freelo.io project management API.
